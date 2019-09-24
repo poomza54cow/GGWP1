@@ -18,7 +18,7 @@ const client = mqtt.connect('soldier.cloudmqtt.com',  // Server MQTT ของ�
 {
   username: 'uumiczri', // Username MQTT ของเรานะ
   password: '4bF40hfXlXH6', // Password MQTT ของเรานะ
-  port: xxxxx // Port MQTT ของเรานะ
+  port: 13043 // Port MQTT ของเรานะ
 });
 client.on('connect', function() { 
   // When connected
